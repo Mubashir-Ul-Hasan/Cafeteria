@@ -1,4 +1,3 @@
-````md
 # Cafeteria Microservices System (DevSprint 2026)
 
 A production-style **microservices cafeteria ordering system** built for DevSprint 2026 (DevOps & Microservices).  
