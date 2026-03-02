@@ -12,8 +12,8 @@ Students can browse menu items, place orders, and track progress in real-time (n
 
 ## Quick Links (Submission)
 
-- **GitHub Repository:** <PASTE_YOUR_PUBLIC_REPO_LINK_HERE>
-- **Demo Video (≤ 3 min):** <PASTE_YOUR_VIDEO_LINK_HERE>
+- **GitHub Repository:** https://github.com/Mubashir-Ul-Hasan/Cafeteria
+- **Demo Video (≤ 3 min):** https://drive.google.com/file/d/1KqkgZD0tmcHOo466Rnc4MuKQFkqUxoeb/view?usp=drive_link
 
 ---
 
