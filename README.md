@@ -124,7 +124,7 @@ In that case,
 ```bash
 docker compose up -d --build
 ```
-Or, you can manually set IPv4 DNS to your wifi with 1.1.1.1 and 4.4.4.4 from the wifi settings.
+Or, you can manually set IPv4 DNS to your wifi with 1.1.1.1 and 8.8.8.8 from the wifi settings.
 
 This fixes the majority of “auth.docker.io no such host” issues on Windows.
 
