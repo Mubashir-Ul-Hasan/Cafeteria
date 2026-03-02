@@ -196,7 +196,7 @@ prototype2/
 
 ## Team
 
-- Md. Mubashir-Ul-Hasan (Leader)
+- Md. Mubashir-Ul-Hasan
 - Muhaiminul Haque
 - Mugdho Ranin Rahman Mahee
 
