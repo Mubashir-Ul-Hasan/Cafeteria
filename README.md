@@ -92,19 +92,28 @@ cp .env.example .env
 docker compose up -d --build
 ```
 
-SOMETIMES, IT MIGHT FAIL DUE TO SERVER PROBLEM OF DOCKER. In that case, you can change your wifi DNS manually to "1.1.1.1" or 8.8.8.8.
+SOMETIMES, IT MIGHT FAIL DUE TO SERVER PROBLEM OF DOCKER. You might face an error like-
 
-Or,
+```bash
+target stock: failed to solve: failed to fetch oauth token: Post "https://auth.docker.io/token": dial tcp: lookup auth.docker.io: getaddrinfow: This is usually a temporary error during hostname resolution and means that the local server did not receive a response from an authoritative server.
+```
 
-Set Docker Desktop DNS explicitly
+In that case, 
 
 1. Open Docker Desktop → Settings → Docker Engine
 
-2. Add DNS entries like this (merge into your existing JSON):
+2. Replace the existing JSON with this:
 
 ```bash
 {
-  "dns": ["1.1.1.1", "8.8.8.8"]
+  "builder": {
+    "gc": {
+      "defaultKeepStorage": "20GB",
+      "enabled": true
+    }
+  },
+  "dns": ["1.1.1.1", "8.8.8.8"],
+  "experimental": false
 }
 ```
 
@@ -115,6 +124,7 @@ Set Docker Desktop DNS explicitly
 ```bash
 docker compose up -d --build
 ```
+Or, you can manually set IPv4 DNS to your wifi with 1.1.1.1 and 4.4.4.4 from the wifi settings.
 
 This fixes the majority of “auth.docker.io no such host” issues on Windows.
 
