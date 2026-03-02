@@ -92,6 +92,32 @@ cp .env.example .env
 docker compose up -d --build
 ```
 
+SOMETIMES, IT MIGHT FAIL DUE TO SERVER PROBLEM OF DOCKER. In that case, you can change your wifi DNS manually to "1.1.1.1" or 8.8.8.8.
+
+Or,
+
+Set Docker Desktop DNS explicitly
+
+1. Open Docker Desktop → Settings → Docker Engine
+
+2. Add DNS entries like this (merge into your existing JSON):
+
+```bash
+{
+  "dns": ["1.1.1.1", "8.8.8.8"]
+}
+```
+
+3. Click Apply & Restart
+
+4. Retry:
+
+```bash
+docker compose up -d --build
+```
+
+This fixes the majority of “auth.docker.io no such host” issues on Windows.
+
 ### 3) Open the app
 
 - Frontend: [http://localhost:5173](http://localhost:5173)
