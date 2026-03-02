@@ -7,7 +7,6 @@ Students can browse menu items, place orders, and track progress in real-time (n
 
 ## Quick Links (Submission)
 
-- **GitHub Repository:** [<PASTE_YOUR_PUBLIC_REPO_LINK_HERE>](https://github.com/Mubashir-Ul-Hasan/Cafeteria)
 - **Demo Video (≤ 3 min):** https://drive.google.com/file/d/1KqkgZD0tmcHOo466Rnc4MuKQFkqUxoeb/view?usp=drive_link
 
 ---
@@ -187,8 +186,6 @@ prototype2/
 ## AI Tools Used (Required Disclosure)
 
 - **ChatGPT (OpenAI):** used for architecture brainstorming, API contract review, edge-case analysis (idempotency, retries), and documentation drafting.
-
-> If you used other AI tools (Copilot/Gemini/etc.), add them here.
 
 ---
 
