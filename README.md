@@ -11,16 +11,6 @@ Students can browse menu items, place orders, and track progress in real-time (n
 
 ---
 
-## Deliverables (Rulebook Checklist)
-
-✅ **1) Requirement Analysis & System Architecture:** `docs/architecture.md`  
-✅ **2) Tools and Stack Report:** `docs/tools-and-stack.md`  
-✅ **3) GitHub Link:** add above  
-✅ **4) Demonstration Video (≤ 3 minutes):** add above  
-✅ **5) Deployment Link (optional):** add above
-
----
-
 ## Features
 
 ### Student App (SPA)
