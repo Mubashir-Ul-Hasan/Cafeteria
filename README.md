@@ -223,6 +223,8 @@ prototype2/
 
 ---
 
+FOR ANY QUERY - hasibhasan6678@gmail.com
+
 ## License
 
-No license (hackathon submission).
+No license 
