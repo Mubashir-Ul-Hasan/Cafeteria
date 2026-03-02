@@ -70,7 +70,7 @@ Full report: `docs/tools-and-stack.md`
 
 ---
 
-## Local Setup (Judge-Friendly)
+## Local Setup 
 
 ### Prerequisites
 
