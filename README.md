@@ -5,7 +5,7 @@ Students can browse menu items, place orders, and track progress in real-time (n
 
 ---
 
-## Quick Links (Submission)
+## Quick Links
 
 - **Demo Video (≤ 3 min):** https://drive.google.com/file/d/1KqkgZD0tmcHOo466Rnc4MuKQFkqUxoeb/view?usp=drive_link
 
